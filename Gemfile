@@ -21,6 +21,7 @@ group :test do
 
   gem 'json', '< 2.0.0' if RUBY_VERSION < '2.0.0'
   gem 'json_pure', '< 2.0.0' if RUBY_VERSION < '2.0.0'
+  gem 'json-schema', '< 2.5.0' if RUBY_VERSION < '2.0.0'
   gem 'listen', '< 3.1' if RUBY_VERSION < '2.2'
   gem 'parallel_tests', '<= 2.9.0' if RUBY_VERSION < '2.0.0'
 end
